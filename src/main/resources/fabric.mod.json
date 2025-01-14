@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "testfabricadditemmod1",
+  "version": "${version}",
+  "name": "TestFabricAddItemMod1",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/testfabricadditemmod1/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.mc1510ty.testfabricadditemmod1.client.Testfabricadditemmod1Client"
+    ],
+    "main": [
+      "com.mc1510ty.testfabricadditemmod1.Testfabricadditemmod1"
+    ]
+  },
+  "mixins": [
+    "testfabricadditemmod1.mixins.json",
+    {
+      "config": "testfabricadditemmod1.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
