@@ -1,3 +1,4 @@
 {
-    "item.testfabricadditemmod1.testitem1": "テストアイテム1"
+    "item.testfabricadditemmod1.testitem1": "テストアイテム1",
+    "itemGroup.testfabricadditemmod1.test_group_1": "Tfaim1_テストグループ1"
 }
