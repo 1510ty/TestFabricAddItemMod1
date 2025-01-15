@@ -3,10 +3,12 @@
   "id": "testfabricadditemmod1",
   "version": "${version}",
   "name": "TestFabricAddItemMod1",
-  "description": "",
-  "authors": [],
-  "contact": {},
-  "license": "All-Rights-Reserved",
+  "description": "1510tyが作った、アイテムやブロックを追加するMod。",
+  "authors": ["1510ty"],
+  "contact": {
+    "sources": "https://github.com/1510ty/TestFabricAddItemMod1"
+  },
+  "license": "MIT License",
   "icon": "assets/testfabricadditemmod1/icon.png",
   "environment": "*",
   "entrypoints": {
